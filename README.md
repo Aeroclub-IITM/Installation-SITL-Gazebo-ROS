@@ -65,3 +65,7 @@ You need either of PX4 or Ardupilot SITL.
 [PX4](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/_new)
 
 [Ardupilot](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/Ardupilot-SITL)
+
+To launch sitl, gazebo and ros, download the arupilot.sh script for [ardupilot.sh](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/scripts/ardupilot.sh) and [px4_posix.sh](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/scripts/px4_posix.sh) for px4.
+
+Run these script by ./ardupilot.sh or ./px4_posix
