@@ -49,6 +49,10 @@ So first we need to install and make our Laptop compatible for this.
 
 [Ubuntu](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/Ubuntu-18.04)
 
+Just after Ubuntu installation your system will be clean.To install basic neccessities,
+
+
+
 [PX4](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/_new)
 
 Ardupilot
