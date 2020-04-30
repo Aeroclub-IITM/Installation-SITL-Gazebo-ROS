@@ -47,6 +47,8 @@ Program -> Mavros -> Mavlink Messages -> Pixhawk -> Drone movements.
 
 So first we need to install and make our Laptop compatible for this.
 
+## Installations
+
 [Ubuntu](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/Ubuntu-18.04)
 
 Just after Ubuntu installation your system will be clean.To install basic neccessities,
