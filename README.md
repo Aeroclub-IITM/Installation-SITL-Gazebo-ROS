@@ -4,7 +4,6 @@ Installation and integration guide on SITL, Gazebo and ROS.
 ## Introduction
 
 This page intend to make you capable of communicating drones with programs written by you.
-Programming language we are following is python.
 Also we are going to control a Quadcopter. OS we going to work is Ubuntu 18.04.
 
 Before directly controlling a drone, we should test our code is working perfectly or not or to
