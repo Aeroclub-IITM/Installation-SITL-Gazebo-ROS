@@ -53,6 +53,8 @@ Just after Ubuntu installation your system will be clean.To install basic necces
 
 [Setup script and graphics driver](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/Setup-script-and-Driver)
 
+Now our OS( Operating System) is ready. Now let's start with installation of required softwares.
+
 [PX4](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/_new)
 
 Ardupilot
