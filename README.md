@@ -69,6 +69,14 @@ To launch sitl, gazebo and ros, download the arupilot.sh script for [ardupilot.s
 
 Run these script by ./ardupilot.sh or ./px4_posix
 
+Also missions are carried out in 'Guided' mode in ardupilot and 'offboard' mode in px4.
+
+Check these codes for arm and takeoff.
+
+For c++ users : [arm.cpp](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS)
+
+For python useres : [arm.py](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/circle.py)
+
 Check out these codes as a reference to write a node.
 
 For c++ users : [square.cpp](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS)
