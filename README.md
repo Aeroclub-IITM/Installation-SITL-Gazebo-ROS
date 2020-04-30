@@ -57,7 +57,7 @@ Just after Ubuntu installation your system will be clean.To install basic necces
 
 Now our OS( Operating System) is ready. Now let's start with installation of required softwares.
 
-ROS
+[ROS](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/ROS-Installation)
 
 There are many firmwares available for drones.PX4 and Ardupilot are most common of them. 
 You need either of PX4 or Ardupilot SITL.
