@@ -69,7 +69,7 @@ To launch sitl, gazebo and ros, download the arupilot.sh script for [ardupilot.s
 
 Run these script by ./ardupilot.sh or ./px4_posix
 
-Check out these programs as a reference to write a node.
+Check out these codes as a reference to write a node.
 
 For c++ users : [square.cpp](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS)
 
