@@ -64,4 +64,4 @@ You need either of PX4 or Ardupilot SITL.
 
 [PX4](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/_new)
 
-Ardupilot
+[Ardupilot](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/Ardupilot-SITL)
