@@ -51,7 +51,7 @@ So first we need to install and make our Laptop compatible for this.
 
 Just after Ubuntu installation your system will be clean.To install basic neccessities,
 
-
+[Setup script and graphics driver](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/Setup-script-and-Driver)
 
 [PX4](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/_new)
 
