@@ -74,3 +74,5 @@ Check out these codes as a reference to write a node.
 For c++ users : [square.cpp](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS)
 
 For python useres : [circle.py](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/circle.py)
+
+For additional plugin checkout [setting_up_sensor](https://github.com/Aeroclub-IITM/Setting_up_sensors) section.
