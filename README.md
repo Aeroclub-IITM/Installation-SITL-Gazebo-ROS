@@ -61,7 +61,7 @@ Now our OS( Operating System) is ready. Now let's start with installation of req
 There are many firmwares available for drones.PX4 and Ardupilot are most common of them. 
 You need either of PX4 or Ardupilot SITL.
 
-[PX4](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/_new)
+[PX4](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/PX4-SITL-with-Gazebo-Simulation-and-ROS)
 
 [Ardupilot](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/Ardupilot-SITL)
 
