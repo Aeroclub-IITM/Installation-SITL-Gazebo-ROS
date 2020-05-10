@@ -16,7 +16,7 @@ if [ "$tempvar" = "y" ]; then
     echo
     echo "Installing ros-melodic"
     echo
-    cd ..
+    cd $HOME
     sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
     sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
     curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654' | sudo apt-key add -
@@ -51,7 +51,7 @@ if [ "$tempvar" = "a" ]; then
     echo
     echo "Setting Ardupilot"
     echo
-    cd ..
+    cd $HOME
     sudo apt-get update
     sudo apt-get install git
     sudo apt-get install gitk git-gui
@@ -69,7 +69,7 @@ if [ "$tempvar" = "a" ]; then
     echo
     ./waf configure --board bebop --static
     ./waf copter
-    cd ..
+    cd $HOME
     echo 'export PATH=$PATH:$HOME/ardupilot/Tools/autotest' >> ~/.zshrc
     echo 'export PATH=/usr/lib/ccache:$PATH' >> ~/.zshrc
     #source ~/.zshrc
@@ -83,7 +83,7 @@ if [ "$tempvar" = "a" ]; then
     echo 'export SVGA_VGPU10=0' >> ~/.zshrc
     git clone https://github.com/SwiftGust/ardupilot_gazebo
     sudo chown -R $(whoami): $HOME/ardupilot_gazebo
-    cd ..
+    cd $HOME
     cd ardupilot_gazebo
     git checkout gazebo9
     mkdir build
@@ -104,7 +104,7 @@ elif [ "$tempvar" = "p" ];then
     echo
     echo "Starting px4 installation"
     echo
-    cd ..
+    cd $HOME
     git clone https://github.com/PX4/Firmware
     sudo chown -R $(whoami): $HOME/Firmware
     wget -c https://raw.githubusercontent.com/PX4/Devguide/v1.9.0/build_scripts/ubuntu_sim_ros_melodic.sh
@@ -120,7 +120,7 @@ elif [ "$tempvar" = "p" ];then
     cd Firmware
     DONT_RUN=1 make px4_sitl_default gazebo
     source ~/catkin_ws/devel/setup.zsh
-    cd ..
+    cd $HOME
     echo
     echo "px4 installation completed"
     echo
@@ -136,7 +136,7 @@ read -p "Do you want to install mavros (y/n): " tempvar
 tempvar=${tempvar:-q}
 
 if [ "$tempvar" = "y" ]; then
-    cd ..
+    cd $HOME
     echo
     echo "Installing Mavros"
     echo
