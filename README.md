@@ -82,12 +82,12 @@ Check these codes for arm and takeoff.
 
 For c++ users : [arm.cpp](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/arm.cpp)
 
-For python useres : [arm.py](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/arm.py)
+For python users : [arm.py](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/arm.py)
 
 Check out these codes as a reference to write a node.
 
 For c++ users : [square.cpp](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS)
 
-For python useres : [circle.py](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/circle.py)
+For python users : [circle.py](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/circle.py)
 
 For additional plugin checkout [plugins_setup](https://github.com/Aeroclub-IITM/Setting_up_sensors) section.
