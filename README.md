@@ -61,6 +61,8 @@ If you are running this script you dont want to follow next installation steps.
 
 https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/scripts/ros-gazebo.sh
 
+If you are preferring manual installation go through this guide.
+
 [ROS](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/ROS-Installation)
 
 There are many firmwares available for drones.PX4 and Ardupilot are most common of them. 
