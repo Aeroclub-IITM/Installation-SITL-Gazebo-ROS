@@ -56,6 +56,11 @@ Just after Ubuntu installation your system will be clean.To install basic necces
 
 Now our OS( Operating System) is ready. Now let's start with installation of required softwares.
 
+Here is a setup script to set your system up with ros-melodic, sitl ( Ardupilot and px4 ) and gazebo.
+If you are running this script you dont want to follow next installation steps.
+
+https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/scripts/ros-gazebo.sh
+
 [ROS](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/wiki/ROS-Installation)
 
 There are many firmwares available for drones.PX4 and Ardupilot are most common of them. 
