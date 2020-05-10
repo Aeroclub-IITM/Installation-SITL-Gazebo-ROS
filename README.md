@@ -56,7 +56,7 @@ Just after Ubuntu installation your system will be clean.To install basic necces
 
 Now our OS( Operating System) is ready. Now let's start with installation of required softwares.
 
-Here is a setup script to set your system up with ros-melodic, sitl ( Ardupilot and px4 ) and gazebo.
+Here is a setup script to set your system up with ros-melodic, sitl ( Ardupilot and px4 ) and gazebo if you are using zsh terminal in ubuntu 18.04
 If you are running this script you dont want to follow next installation steps.
 
 https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/scripts/ros-gazebo.sh
