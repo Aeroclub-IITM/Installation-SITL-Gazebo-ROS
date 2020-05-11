@@ -59,6 +59,10 @@ Now our OS( Operating System) is ready. Now let's start with installation of req
 Here is a setup script to set your system up with ros-melodic, sitl ( Ardupilot and px4 ) and gazebo if you are using zsh terminal in ubuntu 18.04
 If you are running this script you dont want to follow next installation steps.
 
+Run ./ros-gazebo.sh if you are running to install ardupilot.
+
+Run sudo ./ros-gazebo.sh if you are on to px4.
+
 https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS/blob/master/scripts/ros-gazebo.sh
 
 If you are preferring manual installation go through this guide.
