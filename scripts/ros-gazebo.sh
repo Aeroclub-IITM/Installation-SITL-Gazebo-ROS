@@ -59,6 +59,10 @@ if [ "$tempvar" = "a" ] || [ "$tempvar" = "b" ]; then
     echo
     cd $HOME
     sudo apt-get update
+    sudo pip install -U pymavlink MAVProxy
+    conda install wxpython
+    sudo apt-get install libcanberra-gtk-module
+
     sudo apt-get install git
     sudo apt-get install gitk git-gui
     git clone https://github.com/ArduPilot/ardupilot.git
