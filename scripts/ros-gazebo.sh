@@ -84,7 +84,7 @@ if [ "$tempvar" = "a" ] || [ "$tempvar" = "b" ]; then
     ./waf copter
     cd $HOME
     echo 'export PATH=$PATH:$HOME/ardupilot/Tools/autotest' >> ~/.zshrc
-    echo 'export PATH=/usr/lib/ccache:$PATH' >> ~/.zshr
+    echo 'export PATH=/usr/lib/ccache:$PATH' >> ~/.zshrc
     echo
     echo "Building ardupilot_gazebo plugin"
     echo
