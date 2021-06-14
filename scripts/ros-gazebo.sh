@@ -29,12 +29,21 @@ if [ "$tempvar" = "y" ]; then
     curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654' | sudo apt-key add -
     sudo apt update
     sudo apt install ros-melodic-desktop-full
-    echo 'source /opt/ros/melodic/setup.zsh' >> ~/.zshrc
+    
+    #echo 'source /opt/ros/melodic/setup.zsh' >> ~/.zshrc
+    #this keeps the ros directory first in the path. It is better to assign an alias
+    echo 'alias ros_init="source /opt/ros/melodic/setup.zsh; echo done"' >> ~/.zshrc
+    echo "You must type <ros_init> in your shell to setup ROS"
+    read -n 1 -s -r -p "Press any key to continue"
+    echo
+    #This method does not interfere with the $PATH order
+    
     sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
     sudo apt install python-rosdep
     sudo apt install python3-pip
-    sudo pip3 install -U rospkg
-    sudo pip3 install pymavlink
+    pip3 install -U rospkg
+    pip3 install pymavlink
+    pip3 install pymavlink #needed if wheel is not available otherwise redundant
     sudo apt-get install python-rospkg
     sudo rosdep init
     rosdep update
@@ -59,7 +68,7 @@ if [ "$tempvar" = "a" ] || [ "$tempvar" = "b" ]; then
     echo
     cd $HOME
     sudo apt-get update
-    sudo pip install -U pymavlink MAVProxy
+    pip install -U pymavlink MAVProxy
     conda install wxpython
     sudo apt-get install libcanberra-gtk-module
 
