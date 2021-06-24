@@ -60,7 +60,6 @@ if [ "$tempvar" = "a" ] || [ "$tempvar" = "b" ]; then
     cd $HOME
     sudo apt-get update
     sudo pip install -U pymavlink MAVProxy
-    conda install wxpython
     sudo apt-get install libcanberra-gtk-module
 
     sudo apt-get install git
@@ -126,6 +125,12 @@ if [ "$tempvar" = "p" ] || [ "$tempvar" = "b" ];then
     git submodule update --init --recursive
     sudo chown -R $(whoami): $HOME/Firmware
     wget -c https://raw.githubusercontent.com/PX4/Devguide/v1.9.0/build_scripts/ubuntu_sim_ros_melodic.sh
+    pip3 install --user empy
+    pip install --user empy
+    pip3 install --user toml
+    pip install --user toml
+    pip3 install --user packaging
+    pip install --user packaging
     cd $HOME
     chmod +x *
     source ubuntu_sim_ros_melodic.sh
